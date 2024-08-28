@@ -59,7 +59,7 @@ ol {
 .content__list {
   min-width: 399px;
   height: 298px;
-  overflow-y: scroll;
+  overflow-y: auto;
   position: relative;
 }
 
@@ -159,7 +159,6 @@ ol {
 .content__video-card-description {
   margin-left: 2px;
   line-height: 16.2px;
-  max-height: 65px;
 }
 
 .visually-hidden {
@@ -195,7 +194,7 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label:hover :not(:first-of-type) {
+.search-form__label-text:hover {
   text-decoration: 1px underline white;
   text-underline-position: under;
 }
@@ -281,11 +280,9 @@ ol {
 
 .search-form__submit-button {
   width: 194px;
-  height: 34px;
   align-self: flex-end;
 }
 
 .more-button {
   width: 399px;
-  height: 34px;
 }
