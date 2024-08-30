@@ -194,7 +194,7 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: 1px underline white;
   text-underline-position: under;
 }
